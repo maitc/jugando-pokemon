@@ -31,12 +31,14 @@ function boton(){
 	var po12 = po1.atacar(po2);
 
 	var mostrarPO1 = document.getElementById("mosPO1");
-	mosPO1.innerHTML = "<br>Pokemón 1: " + enviarDa + "<br>Color: " + enviarDat + "<br>Poder Ataque: " + enviarDato;
 	var mostrarPO2 = document.getElementById("mosPO2");
-	mosPO2.innerHTML = "<br>Pokemón 2: " + enviarD + "<br>Color: " + enviarDt + "<br>Poder Ataque: " + enviarDto;
 	var respuesta = document.getElementById("res");
+	
+	mosPO1.innerHTML = "<br>Pokemón 1: " + enviarDa + "<br>Color: " + enviarDat + "<br>Poder Ataque: " + enviarDato;
+	
+	mosPO2.innerHTML = "<br>Pokemón 2: " + enviarD + "<br>Color: " + enviarDt + "<br>Poder Ataque: " + enviarDto;
+	
 	respuesta.innerHTML = "!Super pelea!<br> Pokemon " + enviarDa + " destruye le resta la vida " + enviarD + " en <br>" + po12;
 
 }
 
-boton();
