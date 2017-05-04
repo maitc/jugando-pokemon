@@ -1,27 +1,3 @@
-/*function Pokemon(nombre, color, poderDeAtaque){
-	this.nombre = nombre;
-	this.color = color;
-	this.nivelDeAmistad = 0;
-	this.vida = 100;
-	this.poderDeAtaque = poderDeAtaque;
-	this.mostrarPokemon = function(){
-		return("Hola, soy: " + this.nombre + " y soy de color: " + this.color);
-	}
-	this.aumentarAmistad = function(valor){
-		this.nivelDeAmistad = this.nivelDeAmistad + valor;
-	}
-	this.atacar = function(pokemon){
-		var res = pokemon.vida - this.poderDeAtaque;
-		return res;
-	}
-}
-
-var pikachu = new Pokemon("Pikachu", "amarillo", 100);
-var charmander = new Pokemon("Charmander", "rojo", 20);
-
-pikachu.atacar(charmander);
-console.log(Charmander.vida);*/
-
 function boton(){
 	var enviarDa = document.getElementById("1").value;
 	var enviarDat = document.getElementById("11").value;
@@ -60,11 +36,5 @@ function boton(){
 	mosPO2.innerHTML = "<br>Pokemón 2: " + enviarDa + "<br>Color: " + enviarDat + "<br>Poder Ataque: " + enviarDato;
 	var respuesta = document.getElementById("res");
 	respuesta.innerHTML = "!Super pelea!<br> Pokemon " + enviarD + "destruye a " + enviarDa + "<br>" + po12;
-
-
-
-
-
-
 
 }
