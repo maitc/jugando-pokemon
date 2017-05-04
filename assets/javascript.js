@@ -35,6 +35,6 @@ function boton(){
 	var mostrarPO2 = document.getElementById("mosPO2");
 	mosPO2.innerHTML = "<br>Pokemón 2: " + enviarDa + "<br>Color: " + enviarDat + "<br>Poder Ataque: " + enviarDato;
 	var respuesta = document.getElementById("res");
-	respuesta.innerHTML = "!Super pelea!<br> Pokemon " + enviarD + "destruye a " + enviarDa + "<br>" + po12;
+	respuesta.innerHTML = "!Super pelea!<br> Pokemon " + enviarDa + "destruye a " + enviarD + "<br>" + po12;
 
 }
